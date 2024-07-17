@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  background: transparent;
+  text-decoration: none;
+  font-style: normal; }
+
+img {
+  vertical-align: bottom;
+  border: none; }
+
+html {
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%; }
+
+.wpc-app > .header {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  height: 80px;
+  box-sizing: border-box;
+  overflow-y: auto;
+  background: white;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); }
+  .wpc-app > .header > .rows {
+    margin: 0;
+    padding: 0; }
+    .wpc-app > .header > .rows > .row {
+      margin: 0;
+      padding: 0;
+      display: flex;
+      gap: 8px; }
+      .wpc-app > .header > .rows > .row:hover {
+        background: #dddddd; }
+      .wpc-app > .header > .rows > .row.-clicked {
+        background: #ddffff; }
+      .wpc-app > .header > .rows > .row > .link {
+        display: block;
+        flex: 1 1 50%;
+        padding: 2px;
+        color: #888;
+        font-size: 12px;
+        text-decoration: none;
+        overflow-x: hidden; }
+      .wpc-app > .header > .rows > .row > .open {
+        display: block;
+        flex: 0 0 1em;
+        padding: 2px;
+        color: #888;
+        font-size: 12px;
+        text-decoration: none; }
+        .wpc-app > .header > .rows > .row > .open > .material-symbols-outlined {
+          font-size: 1em; }
+.wpc-app > .cols {
+  display: flex; }
+  .wpc-app > .cols > .col {
+    flex: 1 1 50%;
+    height: 10000px; }
+    .wpc-app > .cols > .col > .screen {
+      width: 200%;
+      height: 20000px;
+      transform: scale(0.5);
+      transform-origin: 0 0;
+      overflow-y: visible; }

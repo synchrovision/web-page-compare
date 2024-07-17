@@ -2,4 +2,6 @@
 !/.gitignore
 !/README.md
 !/main.php
+!/style.css
+!/style.scss
 !/urls.sample.csv
